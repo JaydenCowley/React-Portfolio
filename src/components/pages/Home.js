@@ -3,6 +3,8 @@ import NavTabs from "../NavTabs";
 
 export default function Home () {
     return(
-        NavTabs
+        <div>
+            
+        </div>
     )
 }
