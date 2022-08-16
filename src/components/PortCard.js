@@ -1,5 +1,14 @@
 import React from "react";
 
-function PortCard (props) {
-    // create a component to accept props to render a Portfolio card
+
+export default function PortCard(props) {
+  // create a component to accept props to render a Portfolio card
+  return (
+    <div variant="outlined" className="bubble">
+      <a href={props.href} target="_blank">
+        {props.title}
+      </a>
+      <img href={props.img}></img>
+    </div>
+  );
 }
