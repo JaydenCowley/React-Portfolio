@@ -1,10 +1,18 @@
 import React from "react";
 import NavTabs from "../NavTabs";
-
+import PortCard from "../PortCard";
+import PortfolioData from "../PortfolioData";
 export default function Home () {
     return(
-        <div>
+        <div className="grid">
             
-        </div>
+            {PortfolioData.map((e) => {
+                return (
+                    <PortCard
+                    href={e.href}
+                    title={e.title}
+                    img={e.img} />
+                )
+            })}</div>
     )
 }

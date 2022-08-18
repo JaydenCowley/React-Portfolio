@@ -52,6 +52,9 @@
 }
 .bubble {
   opacity: .5;
+  height: 260px;
+  width: 460px;
+  margin: 15%;
 }
 
 
